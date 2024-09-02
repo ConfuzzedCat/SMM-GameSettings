@@ -1,0 +1,27 @@
+{
+    "Id" : "cyberpunk2077",
+    "Name" : "Cyberpunk 2077",
+    "SteamId" : "1091500",
+    "ModStructures" : [
+        {
+            "ModPath" : "archive/pc/mod",
+            "FileExtensions" : [".xl", ".archive"]
+        },
+        {
+            "ModPath": "r6/scripts",
+            "FileExtensions": [".reds"]
+        },
+        {
+            "ModPath": "red4ext/plugins",
+            "FileExtensions": []
+        },
+        {
+            "ModPath": "bin/x64/plugins/cyber_engine_tweaks/mods",
+            "FileExtensions": []
+        },
+     	{
+            "ModPath": "bin/x64/plugins/cyber_engine_tweaks",
+            "FileExtensions": [".asi"]
+        }
+    ]
+}
