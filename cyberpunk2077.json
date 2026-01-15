@@ -6,27 +6,32 @@
         {
             "ModPath" : "archive/pc/mod",
             "FileExtensions" : [".xl", ".archive"],
-            "ModType": "Archive"
+            "ModType": "Archive",
+            "RootFolder" : "archive"
         },
         {
             "ModPath": "r6/scripts",
             "FileExtensions": [".reds"],
-            "ModType": "Redscript"
+            "ModType": "Redscript",
+            "RootFolder" : "r6"
         },
         {
             "ModPath": "red4ext/plugins",
             "FileExtensions": [],
-            "ModType": "RED4Ext mod"
+            "ModType": "RED4Ext mod",
+            "RootFolder" : "red4ext"
         },
         {
             "ModPath": "bin/x64/plugins/cyber_engine_tweaks/mods",
             "FileExtensions": [],
-            "ModType": "CET Mod"
+            "ModType": "CET Mod",
+            "RootFolder" : "bin"
         },
      	{
             "ModPath": "",
             "FileExtensions": [],
-            "ModType": "Let Mod manager figure it out"
+            "ModType": "Let Mod manager figure it out",
+            "RootFolder" : ""
         }
     ]
 }
