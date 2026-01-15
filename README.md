@@ -1,5 +1,4 @@
 repo for game settings for adding support for different games for [SimpleModManager](https://github.com/ConfuzzedCat/SimpleModManager)
-
 Example:
 ```jsonc
 {
@@ -9,23 +8,28 @@ Example:
     "ModStructures" : [ // for handling mods with no folder structures
         {
             "ModPath" : "archive/pc/mod", // where to place the file
-            "FileExtensions" : [".xl", ".archive"] // the extension found
+            "FileExtensions" : [".xl", ".archive"], // the extension found
+            "ModType": "Archive" // mod type name/or what kind of mod it is.
         },
         {
             "ModPath": "r6/scripts", 
-            "FileExtensions": [".reds"]
+            "FileExtensions": [".reds"],
+            "ModType": "Redscript"
         },
         {
             "ModPath": "red4ext/plugins", 
-            "FileExtensions": [] // leave empty for mods that uses folders
+            "FileExtensions": [], // leave empty for mods that uses folders
+            "ModType": "RED4Ext mod"
         },
         {
             "ModPath": "bin/x64/plugins/cyber_engine_tweaks/mods",
-            "FileExtensions": []
+            "FileExtensions": [],
+            "ModType": "CET Mod"
         },
      	{
-            "ModPath": "bin/x64/plugins/cyber_engine_tweaks",
-            "FileExtensions": [".asi"]
+            "ModPath": "",
+            "FileExtensions": [],
+            "ModType": "Let Mod manager figure it out"
         }
     ]
 }
