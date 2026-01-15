@@ -32,6 +32,18 @@
             "FileExtensions": [],
             "ModType": "Let Mod manager figure it out",
             "RootFolder" : ""
+        },
+     	{
+            "ModPath": "mods",
+            "FileExtensions": [],
+            "ModType": "Redmods",
+            "RootFolder" : "mods"
+        },
+     	{
+            "ModPath": "engine",
+            "FileExtensions": [],
+            "ModType": "Config files",
+            "RootFolder" : "engine"
         }
     ]
 }
