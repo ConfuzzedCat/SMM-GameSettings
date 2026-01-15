@@ -44,6 +44,12 @@
             "FileExtensions": [],
             "ModType": "Config files",
             "RootFolder" : "engine"
+        },
+     	{
+            "ModPath": "fomod",
+            "FileExtensions": [],
+            "ModType": "Fomod",
+            "RootFolder" : "fomod"
         }
     ]
 }
