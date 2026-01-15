@@ -9,27 +9,32 @@ Example:
         {
             "ModPath" : "archive/pc/mod", // where to place the file
             "FileExtensions" : [".xl", ".archive"], // the extension found
-            "ModType": "Archive" // mod type name/or what kind of mod it is.
+            "ModType": "Archive", // mod type name/or what kind of mod it is.
+            "RootFolder" : "archive"
         },
         {
             "ModPath": "r6/scripts", 
             "FileExtensions": [".reds"],
-            "ModType": "Redscript"
+            "ModType": "Redscript",
+            "RootFolder" : "r6"
         },
         {
             "ModPath": "red4ext/plugins", 
             "FileExtensions": [], // leave empty for mods that uses folders
-            "ModType": "RED4Ext mod"
+            "ModType": "RED4Ext mod",
+            "RootFolder" : "red4ext"
         },
         {
             "ModPath": "bin/x64/plugins/cyber_engine_tweaks/mods",
             "FileExtensions": [],
-            "ModType": "CET Mod"
+            "ModType": "CET Mod",
+            "RootFolder" : "bin"
         },
      	{
             "ModPath": "",
             "FileExtensions": [],
-            "ModType": "Let Mod manager figure it out"
+            "ModType": "Let Mod manager figure it out",
+            "RootFolder" : ""
         }
     ]
 }
